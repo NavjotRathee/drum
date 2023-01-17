@@ -135,3 +135,13 @@ margin: 10px 10px 10px 323px;
     display: block;
   }
 }
+
+@media(max-width:600px){
+  .drum{
+  width: 350px;
+  height: 200px;
+text-align: center;
+margin: 10px 10px 10px 0px;
+    display: block;
+  }
+}
