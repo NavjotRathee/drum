@@ -126,7 +126,7 @@ footer{
   background-color: white;
 }
 
-@media(max-width:1000px){
+/* @media(max-width:1000px){
   .drum{
   width: 350px;
   height: 200px;
@@ -135,7 +135,7 @@ margin: 10px 10px 10px 323px;
     display: block;
   }
 }
-
+ */
 @media all and (max-device-width: 600px){
   .q{
     left:5px;
