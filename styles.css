@@ -136,12 +136,50 @@ margin: 10px 10px 10px 323px;
   }
 }
 
-@media(max-width:600px){
-  .drum{
-  width: 350px;
-  height: 200px;
-text-align: center;
-margin: 10px 10px 10px 0px;
-    display: block;
+@media all and (max-device-width: 600px){
+  .q{
+    left:5px;
+    top:200px;
   }
+  .k{
+    left:500px;
+    top:300px;
+  }
+  .l{
+    top:900px;
+    left:300px;
+  }
+  .s{
+    top:500px;
+    left:100px;
+  }
+  .d{
+    top: 500px;
+    left:350px;
+  }
+  .w{
+    top:700px;
+    left:150px;
+  }
+  .j{
+    top:700px;
+    left:350px;
+  }
+  .a{
+    top:600px;
+    left:600px;
+  }
+
+  body {
+    width: 1000px;
+    height: 1200px;
+    background-position: center center;
+    background-image:url("./drums.jpg"); 
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: #283149;
+  }
+ 
+  
+ 
 }
